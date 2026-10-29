@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" translate="no">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-preview">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Arcadrome">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="color-scheme" content="only light">
+    <meta name="robots" content="max-image-preview:large">
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3V0WJ9EJ04"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-3V0WJ9EJ04');
+    </script>
+
+
+
+    <link rel="stylesheet" href="/assets/styles/app-woUrVts.css">
+    <link rel="stylesheet" href="/assets/@symfony/ux-live-component/live.min-FOtfHpc.css">
+    <script type="importmap" data-turbo-track="reload">
+        { "imports": { "app": "/assets/app-jgPm2-L.js", "/assets/bootstrap.js": "/assets/bootstrap-W_CM2jQ.js", "/assets/styles/app.css": "data:application/javascript,", "@symfony/stimulus-bundle": "/assets/@symfony/stimulus-bundle/loader-V1GtHuK.js", "@hotwired/stimulus":
+        "/assets/vendor/@hotwired/stimulus/stimulus.index-S4zNcea.js", "/assets/@symfony/stimulus-bundle/controllers.js": "/assets/@symfony/stimulus-bundle/controllers-Jym4vLX.js", "/assets/@symfony/ux-live-component/live_controller.js": "/assets/@symfony/ux-live-component/live_controller-P9iIXNe.js",
+        "/assets/@symfony/ux-live-component/live.min.css": "data:application/javascript,", "/assets/@symfony/ux-turbo/turbo_controller.js": "/assets/@symfony/ux-turbo/turbo_controller-8wQNi2p.js", "/assets/controllers/ad_initializer_controller.js": "/assets/controllers/ad_initializer_controller-c_sxbej.js",
+        "@hotwired/turbo": "/assets/vendor/@hotwired/turbo/turbo.index-pT15T6h.js", "/assets/controllers/fullscreen_controller.js": "/assets/controllers/fullscreen_controller-_eLf3PJ.js", "/assets/controllers/search_controller.js": "/assets/controllers/search_controller-cHwZBs3.js",
+        "/assets/controllers/dropdown_controller.js": "/assets/controllers/dropdown_controller-VtpIcoz.js", "/assets/controllers/recently_played_controller.js": "/assets/controllers/recently_played_controller-w42XjRX.js", "/assets/controllers/game_loader_controller.js":
+        "/assets/controllers/game_loader_controller-4BUM4j8.js", "/assets/controllers/loading_screen_controller.js": "/assets/controllers/loading_screen_controller-deOi26v.js", "/assets/controllers/add_to_recently_played_controller.js": "/assets/controllers/add_to_recently_played_controller-mJ_xmUk.js",
+        "/assets/controllers/slideover_controller.js": "/assets/controllers/slideover_controller-UlF0en8.js", "/assets/controllers/carousel_controller.js": "/assets/controllers/carousel_controller-L9WHl3Q.js", "/assets/controllers/ad_controller.js": "/assets/controllers/ad_controller-9qd0K5g.js",
+        "/assets/controllers/toggle_controller.js": "/assets/controllers/toggle_controller-DLkdhX8.js", "/assets/controllers/csrf_protection_controller.js": "/assets/controllers/csrf_protection_controller-E_gSC5e.js", "/assets/controllers/update_page_controller.js":
+        "/assets/controllers/update_page_controller-_A9VSzh.js", "/assets/controllers/ad_inserter_controller.js": "/assets/controllers/ad_inserter_controller-gxItn6i.js", "/assets/controllers/stars_controller.js": "/assets/controllers/stars_controller-3IGPyLU.js",
+        "/assets/controllers/voting_controller.js": "/assets/controllers/voting_controller-a-oQQhM.js", "@symfony/ux-live-component": "/assets/@symfony/ux-live-component/live_controller-P9iIXNe.js" } }
+    </script>
+    <script data-turbo-track="reload">
+        if (!HTMLScriptElement.supports || !HTMLScriptElement.supports('importmap'))(function() {
+            const script = document.createElement('script');
+            script.src = 'https://ga.jspm.io/npm:es-module-shims@1.10.0/dist/es-module-shims.js';
+            script.setAttribute('crossorigin', 'anonymous');
+            script.setAttribute('integrity', 'sha384-ie1x72Xck445i0j4SlNJ5W5iGeL3Dpa0zD48MZopgWsjNB/lt60SuG1iduZGNnJn');
+            script.setAttribute('data-turbo-track', 'reload');
+            document.head.appendChild(script);
+        })();
+    </script>
+    <link rel="modulepreload" href="/assets/app-jgPm2-L.js">
+    <link rel="modulepreload" href="/assets/bootstrap-W_CM2jQ.js">
+    <link rel="modulepreload" href="/assets/@symfony/stimulus-bundle/loader-V1GtHuK.js">
+    <link rel="modulepreload" href="/assets/vendor/@hotwired/stimulus/stimulus.index-S4zNcea.js">
+    <link rel="modulepreload" href="/assets/@symfony/stimulus-bundle/controllers-Jym4vLX.js">
+    <link rel="modulepreload" href="/assets/@symfony/ux-live-component/live_controller-P9iIXNe.js">
+    <link rel="modulepreload" href="/assets/@symfony/ux-turbo/turbo_controller-8wQNi2p.js">
+    <link rel="modulepreload" href="/assets/controllers/ad_initializer_controller-c_sxbej.js">
+    <link rel="modulepreload" href="/assets/vendor/@hotwired/turbo/turbo.index-pT15T6h.js">
+    <script type="module" data-turbo-track="reload">import 'app';</script>
+    <link rel="preconnect" href="https://img.arcadrome.com">
+    <link rel="preconnect" href="https://a.arcadrome.com">
+
+    <link rel="preconnect" href="https://games.arcadrome.com">
+
+    <link rel="icon" href="/assets/images/favicon-h7sphxW.svg">
+
+    <title>Drive Mad - Play Online for Free! | Arcadrome</title>
+
+
+    <link rel="canonical" href="https://arcadrome.com/en/games/drive-mad">
+
+    <link rel="alternate" hreflang="en" href="https://arcadrome.com/en/games/drive-mad">
+    <link rel="alternate" hreflang="bg" href="https://arcadrome.com/bg/games/drive-mad">
+    <link rel="alternate" hreflang="uk" href="https://arcadrome.com/ua/games/drive-mad">
+    <link rel="alternate" hreflang="id" href="https://arcadrome.com/id/games/drive-mad">
+    <link rel="alternate" hreflang="ms" href="https://arcadrome.com/ms/games/drive-mad">
+    <link rel="alternate" hreflang="cs" href="https://arcadrome.com/cz/games/drive-mad">
+    <link rel="alternate" hreflang="da" href="https://arcadrome.com/dk/games/drive-mad">
+    <link rel="alternate" hreflang="de" href="https://arcadrome.com/de/games/drive-mad">
+    <link rel="alternate" hreflang="es" href="https://arcadrome.com/es/games/drive-mad">
+    <link rel="alternate" hreflang="fr" href="https://arcadrome.com/fr/games/drive-mad">
+    <link rel="alternate" hreflang="it" href="https://arcadrome.com/it/games/drive-mad">
+    <link rel="alternate" hreflang="hu" href="https://arcadrome.com/hu/games/drive-mad">
+    <link rel="alternate" hreflang="nl" href="https://arcadrome.com/nl/games/drive-mad">
+    <link rel="alternate" hreflang="no" href="https://arcadrome.com/no/games/drive-mad">
+    <link rel="alternate" hreflang="uz" href="https://arcadrome.com/uz/games/drive-mad">
+    <link rel="alternate" hreflang="ru" href="https://arcadrome.com/ru/games/drive-mad">
+    <link rel="alternate" hreflang="pl" href="https://arcadrome.com/pl/games/drive-mad">
+    <link rel="alternate" hreflang="pt-BR" href="https://arcadrome.com/br/games/drive-mad">
+    <link rel="alternate" hreflang="ro" href="https://arcadrome.com/ro/games/drive-mad">
+    <link rel="alternate" hreflang="sk" href="https://arcadrome.com/sk/games/drive-mad">
+    <link rel="alternate" hreflang="sr" href="https://arcadrome.com/sr/games/drive-mad">
+    <link rel="alternate" hreflang="fi" href="https://arcadrome.com/fi/games/drive-mad">
+    <link rel="alternate" hreflang="sv" href="https://arcadrome.com/se/games/drive-mad">
+    <link rel="alternate" hreflang="tl" href="https://arcadrome.com/tl/games/drive-mad">
+    <link rel="alternate" hreflang="tr" href="https://arcadrome.com/tr/games/drive-mad">
+    <link rel="alternate" hreflang="el" href="https://arcadrome.com/gr/games/drive-mad">
+    <link rel="alternate" hreflang="he" href="https://arcadrome.com/il/games/drive-mad">
+    <link rel="alternate" hreflang="ar" href="https://arcadrome.com/ar/games/drive-mad">
+    <link rel="alternate" hreflang="hi" href="https://arcadrome.com/hi/games/drive-mad">
+    <link rel="alternate" hreflang="bn" href="https://arcadrome.com/bn/games/drive-mad">
+    <link rel="alternate" hreflang="th" href="https://arcadrome.com/th/games/drive-mad">
+    <link rel="alternate" hreflang="ko" href="https://arcadrome.com/kr/games/drive-mad">
+    <link rel="alternate" hreflang="ja" href="https://arcadrome.com/jp/games/drive-mad">
+    <link rel="alternate" hreflang="zh-CN" href="https://arcadrome.com/zh/games/drive-mad">
+
+    <link rel="alternate" hreflang="x-default" href="https://arcadrome.com/en/games/drive-mad">
+
+    <meta name="keywords" content="Drive Mad">
+    <meta name="description" content="Play Drive Mad free online on your computer, tablet, or phone. No downloads needed — simple, fun, and ready to play!" />
+    <meta property="og:title" content="Drive Mad" />
+    <meta property="og:url" content="https://arcadrome.com/en/games/drive-mad" />
+    <meta property="og:description" content="Play Drive Mad free online on your computer, tablet, or phone. No downloads needed — simple, fun, and ready to play!" />
+    <meta property="og:locale" content="en" />
+    <meta property="og:image" content="https://img.arcadrome.com/d393c9da-18b3-4c3e-8203-5f666f696df8/icon.avif" />
+    <meta property="og:image:width" content="256">
+    <meta property="og:image:height" content="256">
+    <meta property="og:image:alt" content="Drive Mad - Arcadrome">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:site_name" content="Arcadrome">
+    <meta property="og:type" content="website">
+    <meta property="x:card" content="summary_large_image" />
+    <meta property="x:title" content="Drive Mad" />
+    <meta property="x:description" content="Play Drive Mad free online on your computer, tablet, or phone. No downloads needed — simple, fun, and ready to play!" />
+    <meta property="x:image" content="https://img.arcadrome.com/d393c9da-18b3-4c3e-8203-5f666f696df8/icon.avif" />
+    <meta property="x:image:alt" content="Drive Mad - Arcadrome">
+    <meta property="x:site" content="@Arcadrome">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9081516528603253" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="enterFullscreenIcon" viewBox="0 0 24 24">
+        <path d="M9 15H11V19H5V13H9V15ZM19 19H13V15H15V13H19V19ZM11 9H9V11H5V5H11V9ZM19 11H15V9H13V5H19V11Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="exitFullscreenIcon" viewBox="0 0 24 24">
+        <path d="M11 13V19H7V17H5V13H11ZM19 17H17V19H13V13H19V17ZM11 11H5V7H7V5H11V11ZM17 7H19V11H13V5H17V7Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="reportIcon" viewBox="0 0 24 24">
+        <path d="M5 21V4H14L14.4 6H20V16H13L12.6 14H7V21H5ZM14.65 14H18V8H12.75L12.35 6H7V12H14.25L14.65 14Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="ideaIcon" viewBox="0 0 24 24">
+        <path d="M9 21C9 21.55 9.45 22 10 22H14C14.55 22 15 21.55 15 21V20H9V21ZM12 2C8.14 2 5 5.14 5 9C5 11.38 6.19 13.47 8 14.74V17C8 17.55 8.45 18 9 18H15C15.55 18 16 17.55 16 17V14.74C17.81 13.47 19 11.38 19 9C19 5.14 15.86 2 12 2ZM14.85 13.1L14 13.7V16H10V13.7L9.15 13.1C7.8 12.16 7 10.63 7 9C7 6.24 9.24 4 12 4C14.76 4 17 6.24 17 9C17 10.63 16.2 12.16 14.85 13.1Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="searchIcon" viewBox="0 0 24 24">
+        <path d="M21.0003 19.4103L15.2403 13.6503C17.1153 11.0103 16.8903 7.35028 14.5203 4.98028C13.8946 4.35259 13.1512 3.85456 12.3326 3.51474C11.5141 3.17492 10.6366 3 9.75028 3C8.86401 3 7.98645 3.17492 7.16792 3.51474C6.34938 3.85456 5.60597 4.35259 4.98028 4.98028C4.35259 5.60597 3.85456 6.34938 3.51474 7.16792C3.17492 7.98645 3 8.86401 3 9.75028C3 10.6366 3.17492 11.5141 3.51474 12.3326C3.85456 13.1512 4.35259 13.8946 4.98028 14.5203C6.10634 15.6472 7.59567 16.338 9.18328 16.4698C10.7709 16.6017 12.3538 16.166 13.6503 15.2403L19.4103 21.0003L21.0003 19.4103ZM6.57028 12.9303C5.72758 12.0865 5.25424 10.9428 5.25424 9.75028C5.25424 8.55778 5.72758 7.41404 6.57028 6.57028C7.41404 5.72758 8.55778 5.25424 9.75028 5.25424C10.9428 5.25424 12.0865 5.72758 12.9303 6.57028C13.773 7.41404 14.2463 8.55778 14.2463 9.75028C14.2463 10.9428 13.773 12.0865 12.9303 12.9303C12.0865 13.773 10.9428 14.2463 9.75028 14.2463C8.55778 14.2463 7.41404 13.773 6.57028 12.9303Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="playIcon" viewBox="0 0 24 24">
+        <path d="M5.25 22.9991C3.96563 22.9991 3 21.9491 3 20.7491V4.24906C3 3.05938 3.95625 2 5.25047 2C5.65762 2 6.06375 2.11025 6.42328 2.32958L19.9233 10.5796C20.5922 10.9897 21 11.7162 21 12.4991C21 13.2819 20.592 14.0098 19.9233 14.4186L6.42328 22.6686C6.06562 22.8866 5.65781 22.9991 5.25 22.9991Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="moreIcon" viewBox="0 0 24 24">
+        <path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" fill="currentColor"/>
+    </symbol>
+    <symbol id="feedbackIcon" viewBox="0 0 24 24">
+        <path d="M12 7C12.2833 7 12.5208 6.90417 12.7125 6.7125C12.9042 6.52083 13 6.28333 13 6C13 5.71667 12.9042 5.47917 12.7125 5.2875C12.5208 5.09583 12.2833 5 12 5C11.7167 5 11.4792 5.09583 11.2875 5.2875C11.0958 5.47917 11 5.71667 11 6C11 6.28333 11.0958 6.52083 11.2875 6.7125C11.4792 6.90417 11.7167 7 12 7ZM11 15H13V9H11V15ZM2 22V4C2 3.45 2.19583 2.97917 2.5875 2.5875C2.97917 2.19583 3.45 2 4 2H20C20.55 2 21.0208 2.19583 21.4125 2.5875C21.8042 2.97917 22 3.45 22 4V16C22 16.55 21.8042 17.0208 21.4125 17.4125C21.0208 17.8042 20.55 18 20 18H6L2 22ZM5.15 16H20V4H4V17.125L5.15 16Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="settingsIcon" viewBox="0 0 24 24">
+        <path d="M9.24922 22L8.84922 18.8C8.63255 18.7167 8.42839 18.6167 8.23672 18.5C8.04505 18.3833 7.85755 18.2583 7.67422 18.125L4.69922 19.375L1.94922 14.625L4.52422 12.675C4.50755 12.5583 4.49922 12.4458 4.49922 12.3375V11.6625C4.49922 11.5542 4.50755 11.4417 4.52422 11.325L1.94922 9.375L4.69922 4.625L7.67422 5.875C7.85755 5.74167 8.04922 5.61667 8.24922 5.5C8.44922 5.38333 8.64922 5.28333 8.84922 5.2L9.24922 2H14.7492L15.1492 5.2C15.3659 5.28333 15.5701 5.38333 15.7617 5.5C15.9534 5.61667 16.1409 5.74167 16.3242 5.875L19.2992 4.625L22.0492 9.375L19.4742 11.325C19.4909 11.4417 19.4992 11.5542 19.4992 11.6625V12.3375C19.4992 12.4458 19.4826 12.5583 19.4492 12.675L22.0242 14.625L19.2742 19.375L16.3242 18.125C16.1409 18.2583 15.9492 18.3833 15.7492 18.5C15.5492 18.6167 15.3492 18.7167 15.1492 18.8L14.7492 22H9.24922ZM10.9992 20H12.9742L13.3242 17.35C13.8409 17.2167 14.3201 17.0208 14.7617 16.7625C15.2034 16.5042 15.6076 16.1917 15.9742 15.825L18.4492 16.85L19.4242 15.15L17.2742 13.525C17.3576 13.2917 17.4159 13.0458 17.4492 12.7875C17.4826 12.5292 17.4992 12.2667 17.4992 12C17.4992 11.7333 17.4826 11.4708 17.4492 11.2125C17.4159 10.9542 17.3576 10.7083 17.2742 10.475L19.4242 8.85L18.4492 7.15L15.9742 8.2C15.6076 7.81667 15.2034 7.49583 14.7617 7.2375C14.3201 6.97917 13.8409 6.78333 13.3242 6.65L12.9992 4H11.0242L10.6742 6.65C10.1576 6.78333 9.67839 6.97917 9.23672 7.2375C8.79505 7.49583 8.39089 7.80833 8.02422 8.175L5.54922 7.15L4.57422 8.85L6.72422 10.45C6.64089 10.7 6.58255 10.95 6.54922 11.2C6.51589 11.45 6.49922 11.7167 6.49922 12C6.49922 12.2667 6.51589 12.525 6.54922 12.775C6.58255 13.025 6.64089 13.275 6.72422 13.525L4.57422 15.15L5.54922 16.85L8.02422 15.8C8.39089 16.1833 8.79505 16.5042 9.23672 16.7625C9.67839 17.0208 10.1576 17.2167 10.6742 17.35L10.9992 20ZM12.0492 15.5C13.0159 15.5 13.8409 15.1583 14.5242 14.475C15.2076 13.7917 15.5492 12.9667 15.5492 12C15.5492 11.0333 15.2076 10.2083 14.5242 9.525C13.8409 8.84167 13.0159 8.5 12.0492 8.5C11.0659 8.5 10.2367 8.84167 9.56172 9.525C8.88672 10.2083 8.54922 11.0333 8.54922 12C8.54922 12.9667 8.88672 13.7917 9.56172 14.475C10.2367 15.1583 11.0659 15.5 12.0492 15.5Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="adminIcon" viewBox="0 0 24 24">
+        <path d="M17 17C17.4167 17 17.7708 16.8542 18.0625 16.5625C18.3542 16.2708 18.5 15.9167 18.5 15.5C18.5 15.0833 18.3542 14.7292 18.0625 14.4375C17.7708 14.1458 17.4167 14 17 14C16.5833 14 16.2292 14.1458 15.9375 14.4375C15.6458 14.7292 15.5 15.0833 15.5 15.5C15.5 15.9167 15.6458 16.2708 15.9375 16.5625C16.2292 16.8542 16.5833 17 17 17ZM17 20C17.5167 20 17.9917 19.8792 18.425 19.6375C18.8583 19.3958 19.2083 19.075 19.475 18.675C19.1083 18.4583 18.7167 18.2917 18.3 18.175C17.8833 18.0583 17.45 18 17 18C16.55 18 16.1167 18.0583 15.7 18.175C15.2833 18.2917 14.8917 18.4583 14.525 18.675C14.7917 19.075 15.1417 19.3958 15.575 19.6375C16.0083 19.8792 16.4833 20 17 20ZM12 22C9.68333 21.4167 7.77083 20.0875 6.2625 18.0125C4.75417 15.9375 4 13.6333 4 11.1V5L12 2L20 5V10.675C19.6833 10.5417 19.3583 10.4208 19.025 10.3125C18.6917 10.2042 18.35 10.125 18 10.075V6.4L12 4.15L6 6.4V11.1C6 11.8833 6.10417 12.6667 6.3125 13.45C6.52083 14.2333 6.8125 14.9792 7.1875 15.6875C7.5625 16.3958 8.01667 17.05 8.55 17.65C9.08333 18.25 9.675 18.75 10.325 19.15C10.5083 19.6833 10.75 20.1917 11.05 20.675C11.35 21.1583 11.6917 21.5917 12.075 21.975C12.0583 21.975 12.0458 21.9792 12.0375 21.9875C12.0292 21.9958 12.0167 22 12 22ZM17 22C15.6167 22 14.4375 21.5125 13.4625 20.5375C12.4875 19.5625 12 18.3833 12 17C12 15.6167 12.4875 14.4375 13.4625 13.4625C14.4375 12.4875 15.6167 12 17 12C18.3833 12 19.5625 12.4875 20.5375 13.4625C21.5125 14.4375 22 15.6167 22 17C22 18.3833 21.5125 19.5625 20.5375 20.5375C19.5625 21.5125 18.3833 22 17 22Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="closeIcon" viewBox="0 0 24 24">
+        <path d="M6.4 19L5 17.6L10.6 12L5 6.4L6.4 5L12 10.6L17.6 5L19 6.4L13.4 12L19 17.6L17.6 19L12 13.4L6.4 19Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="arrowBackIcon" viewBox="0 0 24 24">
+        <path d="M16.41 5.41L15 4l-8 8 8 8 1.41-1.41L9.83 12" fill="currentColor"/>
+    </symbol>
+    <symbol id="arrowForwardIcon" viewBox="0 0 24 24">
+        <path d="M7.59 18.59L9 20l8-8-8-8-1.41 1.41L14.17 12" fill="currentColor"/>
+    </symbol>
+    <symbol id="thumbUpIcon" viewBox="0 0 24 24">
+        <path d="M8 10V19H5V10H8ZM14 10H19V19H9V6H14V10Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="thumbDownIcon" viewBox="0 0 24 24">
+        <path d="M8 15V6H5V15H8ZM14 15H19V6H9V19H14V15Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="starIcon" viewBox="0 0 10 10">
+        <path d="M3.189 2.94L4.383.391a.682.682 0 0 1 1.234 0L6.811 2.94h2.506c.6 0 .908.72.492 1.154L7.912 6.071l.78 3.078a.682.682 0 0 1-1.001.758L5 8.357l-2.691 1.55a.682.682 0 0 1-1-.758l.779-3.078L.19 4.093a.682.682 0 0 1 .492-1.154h2.506z" fill="currentColor"/>
+    </symbol>
+</svg>
+
+    <div class="flex flex-col gap-y-[clamp(.5rem,2.9vw_+_.1rem,2rem)] min-h-screen">
+        <div class="contents" data-controller="add-to-recently-played" data-add-to-recently-played-name-value="Drive Mad" data-add-to-recently-played-locale-value="en" data-add-to-recently-played-url-value="/en/games/drive-mad" data-add-to-recently-played-image-value="https://img.arcadrome.com/d393c9da-18b3-4c3e-8203-5f666f696df8/icon.avif"
+            data-add-to-recently-played-limit-value="12">
+            <header class="w-full bg-blue-400">
+                <div class="flex flex-col justify-center items-center h-auto min-h-16 mx-auto relative max-w-[--game-page-container-width] gap-[clamp(.5rem_,2.9vw_+_.1rem_,2rem)]">
+                    <div class="grid grid-cols-[1fr_auto_1fr] [grid-template-areas:'start_center_end'] items-center w-full">
+                        <a href="/" tabindex="0" class="self-center [grid-area:center] rounded-2xl focusable">
+                        <img src="/assets/images/logo-3oEUpgs.svg" alt="logo" class="h-[calc(clamp(12rem,11.6vw+7rem,14rem)/5.25)] w-[clamp(12rem,11.6vw+7rem,12rem)]" />
+                    </a>
+                        <div class="flex items-center justify-self-end [grid-area:end] gap-2">
+                            <div data-controller="dropdown" data-dropdown-slideover-outlet="#slideover" class="relative">
+                                <button data-action="dropdown#toggle" class="flex items-center justify-center size-[32px] bg-blue-600 hover:bg-blue-600/80 active:bg-blue-600/70 rounded-full focusable transition-colors duration-100 ease-in-out" tabindex="0">
+        
+<svg  class="size-5 text-white" xmlns="http://www.w3.org/2000/svg">
+    <use href="#moreIcon"></use>
+</svg>
+    </button>
+                                <div data-dropdown-target="content" class="absolute top-10 right-0 min-w-[400px] py-2 bg-white rounded-2xl z-[9999] overflow-hidden shadow-lg hidden">
+                                    <ul class="text-sm font-normal">
+                                        <li>
+                                            <button data-action="click->dropdown#openFeedback" class="flex items-center w-full px-4 py-3 text-left hover:bg-ash-100 active:bg-ash-200 focusable" tabindex="0">
+<svg  class="size-6 mr-2" xmlns="http://www.w3.org/2000/svg">
+    <use href="#feedbackIcon"></use>
+</svg> Send feedback</button>
+                                        </li>
+                                        <li>
+                                            <a data-action="dropdown#close" href="/en/settings/privacy" class="flex items-center w-full px-4 py-3 hover:bg-ash-100 active:bg-ash-200 focusable" tabindex="0">
+                    
+<svg  class="size-6 mr-2" xmlns="http://www.w3.org/2000/svg">
+    <use href="#settingsIcon"></use>
+</svg>
+                    Personalization settings & cookies
+                </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- Feedback Component -->
+                                <div data-controller="live" data-live-name-value="Feedback" data-live-url-value="/en/_components/Feedback" id="live-3631066140-0" data-live-props-value="{&quot;message&quot;:&quot;&quot;,&quot;game&quot;:null,&quot;feedbackType&quot;:null,&quot;isValidated&quot;:false,&quot;validatedFields&quot;:[],&quot;@attributes&quot;:{&quot;id&quot;:&quot;live-3631066140-0&quot;},&quot;@checksum&quot;:&quot;eq5toWfK3P5gfscetwt3s0wPkQ3ibyHOBf6MQaQAU\/M=&quot;}"
+                                    class="contents">
+                                    <div id="slideover" data-controller="slideover" data-slideover-target="background" class="hidden fixed top-0 left-0 w-full h-full bg-[rgba(128,_134,_139,_0.5)] z-[9999]">
+                                        <div data-slideover-target="menu" class="absolute top-0 right-0 h-full flex flex-1 flex-col w-full sm:max-w-md bg-white rounded-l-xl opacity-100 translate-x-0 leave-to">
+                                            <div data-slideover-target="mainMenu" class="flex flex-col h-full overflow-auto">
+                                                <div class="flex flex-row items-start justify-between mx-5 mt-2 mb-1">
+                                                    <h1 class="text-lg font-normal text-ash-800 my-3 mr-2">Send feedback to Arcadrome</h1>
+                                                    <div class="flex flex-row-reverse">
+                                                        <div data-action="click->slideover#hide" class="flex items-center justify-center p-3 hover:bg-ash-100 active:bg-ash-200 rounded-full cursor-pointer">
+
+                                                            <svg class="size-6 text-ash-800" xmlns="http://www.w3.org/2000/svg">
+    <use href="#closeIcon"></use>
+</svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="flex flex-col items-center h-full pt-6">
+                                                    <img class="w-[240px] pb-4" alt="" src="/assets/images/intent_selection_header-EzNyv9R.png">
+                                                    <div class="w-full">
+                                                        <div data-action="click->slideover#showReportMenu" role="button" class="w-full hover:bg-ash-100 active:bg-ash-200 cursor-pointer">
+                                                            <div class="flex items-center justify-left w-full h-14 pl-6">
+                                                                <span class="flex items-center justify-center size-8 bg-blue-600 mr-2 rounded-full">
+                                    
+<svg  class="size-5 text-white" xmlns="http://www.w3.org/2000/svg">
+    <use href="#reportIcon"></use>
+</svg>
+                                </span>
+                                                                <span class="text-ash-800">Report an issue</span>
+                                                            </div>
+                                                        </div>
+                                                        <div data-action="click->slideover#showIdeaMenu" role="button" class="w-full hover:bg-ash-100 active:bg-ash-200 cursor-pointer">
+                                                            <div class="flex items-center justify-left w-full h-14 pl-6">
+                                                                <span class="flex items-center justify-center size-8 bg-blue-600 mr-2 rounded-full">
+                                    
+<svg  class="size-5 text-white" xmlns="http://www.w3.org/2000/svg">
+    <use href="#ideaIcon"></use>
+</svg>
+                                </span>
+                                                                <span class="text-ash-800">Suggest an idea</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!--Report Menu-->
+                                            <div data-slideover-target="reportMenu" class="hidden flex flex-col h-full overflow-auto">
+                                                <div class="flex flex-row items-start justify-between px-5 pt-2 pb-1 shadow-[0_1px_4px_rgba(48,_48,_48,_.3)]">
+                                                    <div class="flex">
+                                                        <div class="-ml-4 mr-1">
+                                                            <div data-action="click->slideover#showMainMenu" class="flex items-center justify-center p-4 hover:bg-ash-100 active:bg-ash-200 rounded-full cursor-pointer">
+
+                                                                <svg class="size-6 text-ash-800" xmlns="http://www.w3.org/2000/svg">
+    <use href="#arrowBackIcon"></use>
+</svg>
+                                                            </div>
+                                                        </div>
+                                                        <h1 class="text-lg my-3 mr-2">Report an issue</h1>
+                                                    </div>
+                                                    <div>
+                                                        <div data-action="click->slideover#hide" class="flex items-center justify-center p-4 hover:bg-ash-100 active:bg-ash-200 rounded-full cursor-pointer">
+
+                                                            <svg class="size-6 text-ash-800" xmlns="http://www.w3.org/2000/svg">
+    <use href="#closeIcon"></use>
+</svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="flex flex-col grow-1 h-full p-4 overflow-x-hidden overflow-y-auto">
+                                                    <div class="py-2">
+                                                        <div>
+                                                            <label for="feedback-issue-message" class="text-sm mb-2">Describe your issue</label>
+                                                            <div>
+                                                                <textarea data-model="norender|message" id="feedback-issue-message" class="text-sm w-full h-[125px] p-3 border border-ash-800 rounded-md" placeholder="Tell us what happened and what&#039;s not working"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex mt-1.5">
+                                                            <span class="text-xs">Please don’t include any sensitive information</span>
+                                                            <span class="ml-2"><svg class="size-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z" class="text-[--text-primary]"></path></svg></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex items-end mt-auto w-full mb-4">
+                                                        <p class="text-xs text-ash-500">
+                                                            We may collect some technical info to help us fix bugs and make Arcadrome better. This is handled according to our <a href="/en/settings/privacy" class="text-[--link] underline" data-action="click->slideover#hide">Privacy Policy</a>                                                            and <a href="#" class="text-[--link] underline" data-action="click->slideover#hide">Terms of Service</a>. We might reach out by email if we need more details or have an update about your report.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="flex flex-col shrink-0 p-5 mt-auto shadow-[0_-1px_4px_rgba(48,_48,_48,_.3)]">
+                                                    <div class="flex self-end">
+                                                        <button class="btn btn-primary" data-action="live#action:prevent" data-live-action-param="save" data-live-type-param="issue" data-loading="addClass(opacity-50) addAttribute(disabled)">Send</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!--Idea Menu-->
+                                            <div data-slideover-target="ideaMenu" class="hidden flex flex-col h-full overflow-auto">
+                                                <div class="flex flex-row items-start justify-between px-5 pt-2 pb-1 shadow-[0_1px_4px_rgba(48,_48,_48,_.3)]">
+                                                    <div class="flex">
+                                                        <div class="-ml-4 mr-1">
+                                                            <div data-action="click->slideover#showMainMenu" class="flex items-center justify-center p-4 hover:bg-ash-100 active:bg-ash-200 rounded-full cursor-pointer">
+
+                                                                <svg class="size-6 text-ash-800" xmlns="http://www.w3.org/2000/svg">
+    <use href="#arrowBackIcon"></use>
+</svg>
+                                                            </div>
+                                                        </div>
+                                                        <h1 class="text-lg my-3 mr-2">Suggest an idea</h1>
+                                                    </div>
+                                                    <div>
+                                                        <div data-action="click->slideover#hide" class="flex items-center justify-center p-4 hover:bg-ash-100 active:bg-ash-200 rounded-full cursor-pointer">
+
+                                                            <svg class="size-6 text-ash-800" xmlns="http://www.w3.org/2000/svg">
+    <use href="#closeIcon"></use>
+</svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="flex flex-col grow-1 h-full p-4 overflow-x-hidden overflow-y-auto">
+                                                    <div class="py-2">
+                                                        <div>
+                                                            <label for="feedback-idea-message" class="text-sm mb-2">Describe your suggestion</label>
+                                                            <div>
+                                                                <textarea data-model="norender|message" id="feedback-idea-message" class="text-sm w-full h-[125px] p-3 border border-ash-800 rounded-md" placeholder="Tell us how we can improve our product"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex mt-1.5">
+                                                            <span class="text-xs">Please don’t include any sensitive information</span>
+                                                            <span class="ml-2"><svg class="size-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z" class="text-[--text-primary]"></path></svg></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex items-end mt-auto w-full mb-4">
+                                                        <p class="text-xs text-ash-500">
+                                                            We may collect some technical info to help us fix bugs and make Arcadrome better. This is handled according to our <a href="/en/settings/privacy" class="text-[--link] underline" data-action="click->slideover#hide">Privacy Policy</a>                                                            and <a href="#" class="text-[--link] underline" data-action="click->slideover#hide">Terms of Service</a>. We might reach out by email if we need more details or have an update about your report.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="flex flex-col shrink-0 p-5 mt-auto shadow-[0_-1px_4px_rgba(48,_48,_48,_.3)]">
+                                                    <div class="flex self-end">
+                                                        <button class="btn btn-primary" data-action="live#action:prevent" data-live-action-param="save" data-live-type-param="idea" data-loading="addClass(opacity-50) addAttribute(disabled)">Send</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Confirm Menu -->
+                                            <div data-slideover-target="confirmationMenu" class="hidden flex flex-col h-full overflow-auto">
+                                                <div class="flex flex-row items-start justify-between mx-5 mt-2 mb-1">
+                                                    <div class="flex flex-row-reverse w-full">
+                                                        <div data-action="click->slideover#hide" class="flex items-center justify-center p-4 hover:bg-ash-100 active:bg-ash-200 rounded-full cursor-pointer">
+
+                                                            <svg class="size-5 text-ash-800" xmlns="http://www.w3.org/2000/svg">
+    <use href="#closeIcon"></use>
+</svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="flex flex-col items-center justify-center mx-14 h-full">
+                                                    <img class="w-[150%] max-w-[280px]" alt="" src="/assets/images/thank_you_header-JZTDx2r.png">
+                                                    <div class="w-full mb-[96px] mt-[58px] text-[15px]">
+                                                        <p class="font-semibold mb-4">Thank you for your feedback!</p>
+                                                        <p class="text-[--text-secondary] mb-4 leading-5">We use feedback like yours to help improve Arcadrome.</p>
+                                                        <button class="btn btn-primary" data-action="click->slideover#hide">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+
+
+
+
+
+
+
+            <script type="application/ld+json">
+                {
+                    "@context": "http:\/\/schema.org",
+                    "@graph": [{
+                        "@type": "ItemPage",
+                        "@id": "https:\/\/arcadrome.com\/en\/games\/drive-mad#ItemPage",
+                        "url": "https:\/\/arcadrome.com\/en\/games\/drive-mad",
+                        "name": "Drive Mad - Play Online for Free! | Arcadrome",
+                        "description": "Play Drive Mad free online on your computer, tablet, or phone. No downloads needed — simple, fun, and ready to play!",
+                        "inLanguage": "en",
+                        "breadcrumb": {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [{
+                                "@type": "ListItem",
+                                "position": 1,
+                                "item": {
+                                    "@type": "Thing",
+                                    "@id": "https:\/\/arcadrome.com\/",
+                                    "name": "Arcadrome"
+                                }
+                            }, {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "item": {
+                                    "@type": "Thing",
+                                    "@id": "https:\/\/arcadrome.com\/en\/categories\/racing",
+                                    "name": "Racing games"
+                                }
+                            }, {
+                                "@type": "ListItem",
+                                "position": 3,
+                                "item": {
+                                    "@type": "Thing",
+                                    "@id": "https:\/\/arcadrome.com\/en\/games\/drive-mad",
+                                    "name": "Drive Mad"
+                                }
+                            }]
+                        },
+                        "primaryImageOfPage": {
+                            "@type": "ImageObject",
+                            "url": "https:\/\/img.arcadrome.com\/d393c9da-18b3-4c3e-8203-5f666f696df8\/icon.avif",
+                            "thumbnailUrl": "https:\/\/img.arcadrome.com\/d393c9da-18b3-4c3e-8203-5f666f696df8\/icon.avif",
+                            "image": "https:\/\/img.arcadrome.com\/d393c9da-18b3-4c3e-8203-5f666f696df8\/icon.avif",
+                            "contentUrl": "https:\/\/img.arcadrome.com\/d393c9da-18b3-4c3e-8203-5f666f696df8\/icon.avif",
+                            "width": "256",
+                            "height": "256"
+                        },
+                        "image": {
+                            "@type": "ImageObject",
+                            "url": "https:\/\/img.arcadrome.com\/d393c9da-18b3-4c3e-8203-5f666f696df8\/icon.avif",
+                            "thumbnailUrl": "https:\/\/img.arcadrome.com\/d393c9da-18b3-4c3e-8203-5f666f696df8\/icon.avif",
+                            "image": "https:\/\/img.arcadrome.com\/d393c9da-18b3-4c3e-8203-5f666f696df8\/icon.avif",
+                            "contentUrl": "https:\/\/img.arcadrome.com\/d393c9da-18b3-4c3e-8203-5f666f696df8\/icon.avif",
+                            "width": "256",
+                            "height": "256"
+                        },
+                        "mainEntity": {
+                            "@type": ["VideoGame", "WebApplication"],
+                            "name": "Drive Mad",
+                            "description": "Play Drive Mad free online on your computer, tablet, or phone. No downloads needed — simple, fun, and ready to play!",
+                            "url": "https:\/\/arcadrome.com\/en\/games\/drive-mad",
+                            "image": {
+                                "@type": "ImageObject",
+                                "url": "https:\/\/img.arcadrome.com\/d393c9da-18b3-4c3e-8203-5f666f696df8\/icon.avif",
+                                "thumbnailUrl": "https:\/\/img.arcadrome.com\/d393c9da-18b3-4c3e-8203-5f666f696df8\/icon.avif",
+                                "image": "https:\/\/img.arcadrome.com\/d393c9da-18b3-4c3e-8203-5f666f696df8\/icon.avif",
+                                "contentUrl": "https:\/\/img.arcadrome.com\/d393c9da-18b3-4c3e-8203-5f666f696df8\/icon.avif",
+                                "width": "256",
+                                "height": "256"
+                            },
+                            "operatingSystem": "Web Browser",
+                            "gamePlatform": "Arcadrome",
+                            "availableOnDevice": ["Mobile", "Tablet", "Desktop"],
+                            "aggregateRating": {
+                                "@type": "AggregateRating",
+                                "worstRating": 1,
+                                "bestRating": 5,
+                                "ratingValue": 4,
+                                "ratingCount": 1984
+                            },
+                            "offers": {
+                                "@type": "Offer",
+                                "price": 0,
+                                "priceCurrency": "EUR",
+                                "availability": "http:\/\/schema.org\/InStock"
+                            },
+                            "screenshot": {
+                                "@type": "ImageObject",
+                                "url": "https:\/\/img.arcadrome.com\/d393c9da-18b3-4c3e-8203-5f666f696df8\/banner.avif",
+                                "thumbnailUrl": "https:\/\/img.arcadrome.com\/d393c9da-18b3-4c3e-8203-5f666f696df8\/banner.avif",
+                                "image": "https:\/\/img.arcadrome.com\/d393c9da-18b3-4c3e-8203-5f666f696df8\/banner.avif",
+                                "contentUrl": "https:\/\/img.arcadrome.com\/d393c9da-18b3-4c3e-8203-5f666f696df8\/banner.avif",
+                                "width": "480",
+                                "height": "270"
+                            },
+                            "potentialAction": {
+                                "@type": "PlayAction",
+                                "target": "https:\/\/arcadrome.com\/en\/games\/drive-mad",
+                                "name": "Drive Mad"
+                            },
+                            "author": {
+                                "@type": "Person",
+                                "name": "Fancade"
+                            }
+                        },
+                        "isPartOf": {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/arcadrome.com\/#website",
+                            "name": "Arcadrome",
+                            "url": "https:\/\/arcadrome.com\/",
+                            "description": "Play free online games on Arcadrome. Enjoy arcade, puzzle, racing, and more on mobile or desktop — no downloads required.",
+                            "inLanguage": "en",
+                            "publisher": {
+                                "@type": "Organization",
+                                "@id": "https:\/\/arcadrome.com\/#organization",
+                                "url": "https:\/\/arcadrome.com\/",
+                                "name": "Arcadrome",
+                                "legalName": "Arcadrome B.V.",
+                                "description": "Arcadrome is a free online games site that offers hundreds of games from different creators to players around the world. Play on mobile or desktop with no installation required.",
+                                "logo": "\/assets\/images\/logo-3oEUpgs.svg",
+                                "image": "\/assets\/images\/homepage-screenshot-22UYC0H.png",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "@id": "https:\/\/arcadrome.com\/#brand",
+                                    "name": "Arcadrome",
+                                    "slogan": "Let the world play"
+                                },
+                                "email": "hello@arcadrome.com",
+                                "sameAs": ["https:\/\/arcadrome.com\/en\/about", "https:\/\/www.facebook.com\/Arcadrome", "https:\/\/x.com\/Arcadrome", "https:\/\/www.trustpilot.com\/review\/arcadrome.com"],
+                                "contactPoint": {
+                                    "@type": "ContactPoint",
+                                    "contactType": "User Feedback",
+                                    "url": "https:\/\/arcadrome.com\/en\/contact",
+                                    "email": "hello@arcadrome.com"
+                                },
+                                "address": {
+                                    "@type": "PostalAddress",
+                                    "streetAddress": "Kyiv City Center",
+                                    "postalCode": "01001",
+                                    "addressLocality": "Kyiv",
+                                    "addressRegion": "Kyiv City",
+                                    "addressCountry": {
+                                        "@type": "Country",
+                                        "name": "UA"
+                                    }
+                                }
+                            }
+                        }
+                    }]
+                }
+            </script>
+
+
+            <div class="flex flex-col items-center justify-center max-w-[--game-page-container-width] mx-auto">
+
+                <div class="game-grid">
+                    <div data-controller="fullscreen" class="game-container flex items-center justify-center col-span-8 row-span-5 [grid-area:igc]">
+                        <div class="game-container-inner overflow-hidden">
+                            <div class="flex flex-col items-center grow-0 w-full h-full bg-ash-100 rounded-b-2xl">
+                                <div class="flex justify-center items-center w-full h-full relative overflow-hidden">
+                                    <div data-controller="loading-screen">
+                                        <div data-loading-screen-target="loader" class="absolute top-0 left-0 border-0 w-full h-full bg-[#202f4e] z-10 flex items-center justify-center">
+                                            <div class="inline-flex items-center text-2xl">
+                                                <span class="dot"></span>
+                                                <span class="dot"></span>
+                                                <span class="dot"></span>
+                                            </div>
+                                        </div>
+                                        <div data-fullscreen-target="game" class="absolute inset-0">
+                                            <iframe id="game-element" class="absolute top-0 left-0 border-0 w-full h-full" data-loading-screen-target="iframe" name="gameframe" src="https://arcadrome.com/embed/drive-mad" allowfullscreen allow="autoplay; fullscreen; camera; focus-without-user-activation *; monetization; gamepad; keyboard-map *; xr-spatial-tracking; clipboard-write; web-share; accelerometer; magnetometer; gyroscope; microphone *"
+                                                scrolling="no" sandbox="allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-scripts allow-same-origin allow-downloads" title="Game"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="game-toolbar flex justify-between w-full h-24 px-4 bg-ash-100 rounded-b-2xl">
+                                    <div class="flex items-center w-full">
+                                        <picture>
+                                            <source srcset="https://img.arcadrome.com/d393c9da-18b3-4c3e-8203-5f666f696df8/icon.avif" type="image/avif">
+                                            <img src="https://img.arcadrome.com/d393c9da-18b3-4c3e-8203-5f666f696df8/icon.png" alt="Drive Mad" class="size-14 shrink-0 overflow-hidden rounded-xl mr-4">
+                                        </picture>
+                                        <div class="min-w-[50%] leading-[1.4]">
+                                            <h1 class="text-xl font-bold text-navy truncate">Drive Mad</h1>
+                                            <span class="text-sm font-normal text-ash-600">by Fancade</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <div class="voting max-[550.9px]:hidden contents" data-controller="voting" data-voting-game-id-value="42" data-voting-up-votes-value="1596" data-voting-down-votes-value="388" data-voting-url-value="/en/vote/42" data-voting-like-text-value="Like" data-voting-dislike-text-value="Dislike"
+                                            data-voting-remove-text-value="Remove">
+                                            <button class="game-toolbar-vote-button size-12 m-[14px_6px_auto] group rounded-full relative" data-action="click->voting#toggle" data-voting-type="up">
+                                            <div class="flex items-center justify-center w-full h-full">
+                                                
+<svg  class="size-6 text-blue-500" xmlns="http://www.w3.org/2000/svg">
+    <use href="#thumbUpIcon"></use>
+</svg>
+                                            </div>
+                                            <div class="absolute left-1/2 bottom-2 font-display text-[10px] font-bold text-ash-700">
+                                                <span class="absolute left-0 top-0 -translate-x-1/2 px-[4px] bg-ash-100 whitespace-nowrap leading-4 rounded-full opacity-[--gameBarLabelOpacity] up-votes-count">1.6K</span>
+                                                <span class="game-toolbar-vote-button-tip absolute left-0 top-0 -translate-x-1/2 bg-blue-500 text-ash-100 px-1.5 whitespace-nowrap leading-4 rounded-full opacity-[--gameBarHoverLabelOpacity]">Like</span>
+                                            </div>
+                                        </button>
+                                            <button class="game-toolbar-vote-button size-12 m-[14px_6px_auto] group rounded-full relative" data-action="click->voting#toggle" data-voting-type="down">
+                                            <div class="flex items-center justify-center w-full h-full">
+                                                
+<svg  class="size-6 text-blue-500" xmlns="http://www.w3.org/2000/svg">
+    <use href="#thumbDownIcon"></use>
+</svg>
+                                            </div>
+                                            <div class="absolute left-1/2 bottom-2 font-display text-[10px] font-bold text-ash-700">
+                                                <span class="absolute left-0 top-0 -translate-x-1/2 px-[4px] bg-ash-100 whitespace-nowrap leading-4 rounded-full opacity-[--gameBarLabelOpacity] down-votes-count">388</span>
+                                                <span class="game-toolbar-vote-button-tip absolute left-0 top-0 -translate-x-1/2 bg-blue-500 text-ash-100 px-1.5 whitespace-nowrap leading-4 rounded-full opacity-[--gameBarHoverLabelOpacity]">Dislike</span>
+                                            </div>
+                                        </button>
+                                        </div>
+                                        <button data-action="click->fullscreen#toggle" class="size-12 m-[14px_6px_auto] hover:bg-ash-200 active:bg-ash-300 group rounded-full relative">
+                                            <div  class="flex items-center justify-center w-full h-full">
+                                                
+<svg  class="size-6 text-blue-500" xmlns="http://www.w3.org/2000/svg">
+    <use href="#enterFullscreenIcon"></use>
+</svg>
+                                            </div>
+                                            <div class="absolute left-1/2 bottom-2 font-display text-[10px] font-black">
+                                                <span class="absolute left-0 top-0 -translate-x-1/2 bg-blue-500 text-ash-100 leading-4 px-1.5 rounded-full whitespace-nowrap opacity-0 group-hover:opacity-100">Fullscreen</span>
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="game-toolbar--fullscreen flex justify-between self-stretch grow-0 shrink-0 relative pr-2 w-full h-16 bg-ash-100 overflow-hidden">
+                                    <div class="flex items-center w-full m-3">
+                                        <picture>
+                                            <source srcset="https://img.arcadrome.com/d393c9da-18b3-4c3e-8203-5f666f696df8/icon.avif" type="image/avif">
+                                            <img src="https://img.arcadrome.com/d393c9da-18b3-4c3e-8203-5f666f696df8/icon.png" alt="Drive Mad" class="size-10 shrink-0 mr-2 overflow-hidden rounded-lg">
+                                        </picture>
+                                        <div class="text-base font-black text-navy truncate">Drive Mad</div>
+                                    </div>
+                                    <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-auto h-8 max-[660.9px]:hidden">
+                                        <img src="/assets/images/logo-3oEUpgs.svg" alt="Arcadrome" class="w-full h-full" />
+                                    </div>
+                                    <button data-action="click->fullscreen#toggle" class="size-12 m-[5px_6px_auto] hover:bg-ash-200 active:bg-ash-300 group rounded-full relative">
+                                    <div class="flex items-center justify-center w-full h-full">
+                                        
+<svg  class="size-6 text-blue-500" xmlns="http://www.w3.org/2000/svg">
+    <use href="#exitFullscreenIcon"></use>
+</svg>
+                                    </div>
+                                    <div class="absolute left-1/2 bottom-2 font-display text-[10px] font-black">
+                                        <span class="absolute left-0 top-0 -translate-x-1/2 bg-blue-500 text-ash-100 leading-4 px-1.5 rounded-full whitespace-nowrap opacity-0 group-hover:opacity-100">Minimized</span>
+                                    </div>
+                                </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contents">
+                        <a href="/en/games/crazy-cars" class="ir0 rounded-2xl overflow-hidden relative focusable">
+                            <picture class="contents w-full h-full">
+                                <source srcset="https://img.arcadrome.com/1f3a5c73-5b44-44c4-8131-92d420b3936a/icon.avif" media="(min-width: 1211px)" type="image/avif" width="204" height="204">
+                                <source srcset="https://img.arcadrome.com/1f3a5c73-5b44-44c4-8131-92d420b3936a/icon.png" media="(min-width: 1211px)" width="204" height="204">
+                                <source srcset="https://img.arcadrome.com/1f3a5c73-5b44-44c4-8131-92d420b3936a/icon.avif" type="image/avif" width="94" height="94">
+                                <img src="https://img.arcadrome.com/1f3a5c73-5b44-44c4-8131-92d420b3936a/icon.png" alt="Crazy Cars" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/monster-truck-forest-delivery" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/0016c39f-b267-4504-aff6-c380ffe2ba36/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/0016c39f-b267-4504-aff6-c380ffe2ba36/icon.png" alt="Monster Truck: Forest Delivery" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/deadly-descent" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/e2dd2ed7-f2d3-4ded-9f93-2854fdf04eea/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/e2dd2ed7-f2d3-4ded-9f93-2854fdf04eea/icon.png" alt="Deadly Descent" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/monster-tracks" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/9ee17028-8af7-4ee4-b7da-1f0b55d3c4dc/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/9ee17028-8af7-4ee4-b7da-1f0b55d3c4dc/icon.png" alt="Monster Tracks" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/fullspeed-racing" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/4582a59d-4402-41d0-b270-3e71254e3668/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/4582a59d-4402-41d0-b270-3e71254e3668/icon.png" alt="FullSpeed Racing" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/retro-highway" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/f8906d6d-8ba7-4c50-9e90-ad61a7a3d349/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/f8906d6d-8ba7-4c50-9e90-ad61a7a3d349/icon.png" alt="Retro Highway" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/escape-road-3" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/83d62f91-b8a9-4099-b327-47562031b23e/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/83d62f91-b8a9-4099-b327-47562031b23e/icon.png" alt="Escape Road 3" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/crazy-bikes" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/ae31626c-5df2-40d9-88b7-44fcb0c284c0/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/ae31626c-5df2-40d9-88b7-44fcb0c284c0/icon.png" alt="Crazy Bikes" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/sky-racer" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/6dfade65-3932-410c-a1d6-bb390d90cce1/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/6dfade65-3932-410c-a1d6-bb390d90cce1/icon.png" alt="Sky Racer" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/smash-karts" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/a995cdd4-9757-426e-9c75-621d5161b1ae/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/a995cdd4-9757-426e-9c75-621d5161b1ae/icon.png" alt="Smash Karts" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/moto-x3m" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/3d008fc2-84c6-4cdb-94c4-4db9975636ed/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/3d008fc2-84c6-4cdb-94c4-4db9975636ed/icon.png" alt="Moto X3M" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/crossy-road" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/602ded1b-6cf0-45fb-9cf0-c1699cc1dca1/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/602ded1b-6cf0-45fb-9cf0-c1699cc1dca1/icon.png" alt="Crossy Road" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/stickman-kingdom-clash" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/f7ac67f1-6d61-4867-95ac-a08ee5e6662b/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/f7ac67f1-6d61-4867-95ac-a08ee5e6662b/icon.png" alt="Stickman Kingdom Clash" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/jewel-magic" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/08f3c4da-f91e-47bd-a5aa-f65f7544a2a6/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/08f3c4da-f91e-47bd-a5aa-f65f7544a2a6/icon.png" alt="Jewel Magic" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/nsr-street-car-racing" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/f983054b-48e2-4c2f-8dae-52ae5d6ea1be/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/f983054b-48e2-4c2f-8dae-52ae5d6ea1be/icon.png" alt="NSR Street Car Racing" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/plonky" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/243fa0b3-ea8c-4760-b419-8c3f1e839510/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/243fa0b3-ea8c-4760-b419-8c3f1e839510/icon.png" alt="Plonky" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/blob-drop" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/6dca9e29-9321-4e91-b207-9695427c71c8/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/6dca9e29-9321-4e91-b207-9695427c71c8/icon.png" alt="Blob Drop" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/temple-of-boom" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/b6542ad6-e604-4c5e-b447-13f5d1e4ed5d/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/b6542ad6-e604-4c5e-b447-13f5d1e4ed5d/icon.png" alt="Temple Of Boom" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/burger-bounty" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/9b7b93c2-1342-4d2d-bbf3-bc7f2bd3d9a4/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/9b7b93c2-1342-4d2d-bbf3-bc7f2bd3d9a4/icon.png" alt="Burger Bounty" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/no-fault-cup-2026" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/e780223e-5924-43ac-a6c8-45bc8140df05/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/e780223e-5924-43ac-a6c8-45bc8140df05/icon.png" alt="No Fault Cup 2026" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/power-wash-cleanup" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/25481c37-3987-47d6-8c65-261a7dcc858f/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/25481c37-3987-47d6-8c65-261a7dcc858f/icon.png" alt="Power Wash Cleanup" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/racing-limits" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/22af43bb-8f87-4d2b-8bc1-48feaef66851/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/22af43bb-8f87-4d2b-8bc1-48feaef66851/icon.png" alt="Racing Limits" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/jump-only" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/5d66f1c9-3bbc-42e8-9865-5161831530ba/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/5d66f1c9-3bbc-42e8-9865-5161831530ba/icon.png" alt="Jump Only" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/cryzen-io" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/2135d863-17e9-4bcf-9858-dfdbc8c375e7/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/2135d863-17e9-4bcf-9858-dfdbc8c375e7/icon.png" alt="Cryzen.io" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/supercar-legends" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/c925a173-af5e-49d7-99a4-95907a9d882e/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/c925a173-af5e-49d7-99a4-95907a9d882e/icon.png" alt="Supercar Legends" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/8-ball-billiards-classic" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/70057d7d-3538-47c8-98ac-7cc257e040b1/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/70057d7d-3538-47c8-98ac-7cc257e040b1/icon.png" alt="8 Ball Billiards Classic" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/kickpack" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/9e13e4a4-e627-42e3-ad6c-cf65acf57d88/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/9e13e4a4-e627-42e3-ad6c-cf65acf57d88/icon.png" alt="Kickpack" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/subway-surfers" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/9b9665bc-3d36-425b-9421-59d9532b231d/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/9b9665bc-3d36-425b-9421-59d9532b231d/icon.png" alt="Subway Surfers" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/polytrack" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/58b8448c-0731-46a9-83d8-789cc1360789/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/58b8448c-0731-46a9-83d8-789cc1360789/icon.png" alt="PolyTrack" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/thumb-fighter" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/e1d5fb22-a7e1-4cbb-86b1-f89ad2a2cec9/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/e1d5fb22-a7e1-4cbb-86b1-f89ad2a2cec9/icon.png" alt="Thumb Fighter" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/raft-wars-multiplayer" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/2d5e5e2c-708a-438b-bee7-02daa9d16aa0/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/2d5e5e2c-708a-438b-bee7-02daa9d16aa0/icon.png" alt="Raft Wars Multiplayer" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/escape-road-2" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/41d2da52-efbf-4fb8-b118-c33260a319b6/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/41d2da52-efbf-4fb8-b118-c33260a319b6/icon.png" alt="Escape Road 2" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/arrow-pathway" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/4b643afd-7cdc-4f5c-b586-d9f6e2a45d64/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/4b643afd-7cdc-4f5c-b586-d9f6e2a45d64/icon.png" alt="Arrow Pathway" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/sandbox-city" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/71a21968-d737-47f9-89e5-38d7ee254041/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/71a21968-d737-47f9-89e5-38d7ee254041/icon.png" alt="Sandbox City" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/shadow-trick" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/9893ea5f-9e42-41e3-bfe4-35b4f71ebd25/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/9893ea5f-9e42-41e3-bfe4-35b4f71ebd25/icon.png" alt="Shadow Trick" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/geometry-dash-lite" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/fd1f924c-3eeb-4e0c-81a3-390f8d472403/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/fd1f924c-3eeb-4e0c-81a3-390f8d472403/icon.png" alt="Geometry Dash Lite" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/punch-master" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/f8612895-7c4d-4749-8a8f-d3336529810a/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/f8612895-7c4d-4749-8a8f-d3336529810a/icon.png" alt="Punch Master" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/sea-catcher" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/88b5a76b-6466-42e0-806f-faa2965fa58c/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/88b5a76b-6466-42e0-806f-faa2965fa58c/icon.png" alt="Sea Catcher" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/unicycle-hero" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/5321712a-98a2-4bef-8a93-ce71a0995fa2/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/5321712a-98a2-4bef-8a93-ce71a0995fa2/icon.png" alt="Unicycle Hero" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                        <a href="/en/games/ovo-classic" class="size-[94px] rounded-2xl relative overflow-hidden focusable">
+                            <picture>
+                                <source srcset="https://img.arcadrome.com/6eb3835c-900c-4f23-bd55-ba37fd4ff4bd/icon.avif" type="image/avif">
+                                <img src="https://img.arcadrome.com/6eb3835c-900c-4f23-bd55-ba37fd4ff4bd/icon.png" alt="OvO Classic" class="rounded-2xl" width="94" height="94">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="a32 [grid-area:a32] flex items-center justify-center">
+
+                        <div class="flex flex-col ad-300">
+                            <div class="bg-ash-100 flex items-center justify-center" style="width:300px;height:250px">
+                                <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-9081516528603253" data-ad-slot="3710496679"></ins>
+                                <script>
+                                    (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="a79 [grid-area:a79] flex items-center">
+
+                        <div class="flex flex-col ad-720">
+                            <div class="bg-ash-100 flex items-center justify-center" style="width:728px;height:90px">
+                                <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-9081516528603253" data-ad-slot="2336772543"></ins>
+                                <script>
+                                    (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="a16 [grid-area:a16] flex items-center justify-center">
+
+                        <div class="flex flex-col ad-160">
+                            <div class="bg-ash-100 flex items-center justify-center" style="width:160px;height:600px">
+                                <ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-9081516528603253" data-ad-slot="6416551062"></ins>
+                                <script>
+                                    (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <article class="article-card">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="/">Arcadrome</a>
+                            </li>
+                            <li>
+                                <a href="/en/categories/racing">Racing games</a>
+                            </li>
+                            <li>
+                                <a href="/en/games/drive-mad">Drive Mad</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <h1 class="text-2xl font-black mt-1 text-navy">Drive Mad</h1>
+                    <div class="my-2">
+                        <span class="inline-block text-xs text-ash-600 font-semibold mr-1 uppercase">Fancade</span>
+                        <span class="inline-block bg-ash-200 text-xs text-ash-600 font-semibold mr-1 px-2 h-[20px] rounded-xl leading-[22px] uppercase">
+                        
+<svg  class="inline-block size-[10px] relative top-[-2px] text-ash-600" xmlns="http://www.w3.org/2000/svg">
+    <use href="#starIcon"></use>
+</svg>
+                        4/5
+                    </span>
+                        <span class="inline-block bg-ash-200 text-xs text-ash-600 font-semibold mr-1 px-2 h-[20px] rounded-xl leading-[22px] uppercase">
+                        1 984 votes
+                    </span>
+                    </div>
+                    <picture class="min-[550px]:float-right min-[550px]:mx-6 mt-8 block size-[200px] min-[991px]:size-[256px]">
+                        <img src="https://img.arcadrome.com/d393c9da-18b3-4c3e-8203-5f666f696df8/icon.avif" alt="Drive Mad" class="w-full h-full rounded-[20px]" />
+                    </picture>
+                    <div class="content">
+                        <p>Drive Mad is a fun driving game where you steer your car across a long series of tricky and unpredictable tracks. Each stage throws something new at you: collapsing bridges, moving platforms, sudden drops, and tight jumps that
+                            require careful timing. Your main goal is to control your speed so the car doesn’t flip while still moving fast enough to clear obstacles. The further you go, the tougher and more creative the challenges become, turning every
+                            level into a small puzzle. Can you stay calm, keep the car balanced, and reach the finish line in every stage?</p>
+                        <h3>Who created Drive Mad?</h3>
+                        <p>Drive Mad is created by Fancade. You may also like <a href="/en/games/dino-bros">Dino Bros</a>, <a href="/en/games/gobble">Gobble</a> and <a href="/en/games/monster-match">Monster Match</a> from this developer.</p>
+                        <h3>How can I play Drive Mad for free?</h3>
+                        <p>Enjoy Drive Mad for free anytime on Arcadrome.</p>
+                        <h3>Can I play Drive Mad on my phone or tablet?</h3>
+                        <p>Yes! Play Drive Mad online for free on Arcadrome using any device — no downloads needed!</p>
+
+                    </div>
+                    <ul class="mt-4 text-sm font-display leading-[1]">
+                        <li class="inline-block mt-2 mr-1">
+                            <a href="/en/categories/arcade" class="flex items-center bg-ash-200 text-navy hover:bg-ash-300 font-semibold h-12 px-4 rounded-full">
+                            Arcade Games
+                        </a>
+                        </li>
+                        <li class="inline-block mt-2 mr-1">
+                            <a href="/en/categories/racing" class="flex items-center bg-ash-200 text-navy hover:bg-ash-300 font-semibold h-12 px-4 rounded-full">
+                            Racing Games
+                        </a>
+                        </li>
+                    </ul>
+                </article>
+
+            </div>
+
+        </div>
+        <footer class="flex flex-col items-center bg-ash-100 gap-2 p-2 [margin-block-start:1.5rem] [-webkit-margin-before:1.5rem]">
+            <h2 class="text-base/5 font-medium text-center text-navy py-2">These games are brought to you by Arcadrome.</h2>
+            <p class="text-sm/normal text-ash-600 font-normal text-center max-w-[67ch] font-rubik">
+                By using Arcadrome, you agree to the policies outlined in our <a class="text-blue-800 underline" href="/en/settings/privacy">Privacy Center</a>. We use cookies to improve the site, understand how it’s used, and show relevant content. More
+                about the site is on the <a class="text-blue-800 underline" href="/en/settings/about">About</a> page. For any questions, please <a class="text-blue-800 underline" href="/en/settings/contact">Contact</a>.
+            </p>
+            <div data-controller="dropdown" data-turbo="false">
+                <button data-action="dropdown#toggle" class="size-9 overflow-hidden bg-white rounded-full focusable" tabindex="0">
+        <img src="/assets/images/flags/usa-cugjT9j.svg" alt="English" loading="lazy" decoding="async" class="inline-block size-9">
+    </button>
+                <div data-dropdown-target="content" class="max-h-[90vh] min-w-72 overflow-y-auto hide-scrollbar fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-white rounded-2xl z-10 pt-[65px] shadow-[0px_3px_6px_rgb(0,0,0,.3)] hidden">
+                    <h6 class="text-lg font-bold absolute left-0 top-0 w-full truncate p-[24px]">Select your language</h6>
+                    <a href="/index.php/en/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to English" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/usa-cugjT9j.svg"
+                     alt="English"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                English
+            </a>
+                    <a href="/index.php/bg/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Bulgarian" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/bulgaria-oOLHMoU.svg"
+                     alt="Bulgarian"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                български
+            </a>
+                    <a href="/index.php/ua/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Ukrainian" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/ukraine-smsWz9C.svg"
+                     alt="Ukrainian"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                українська
+            </a>
+                    <a href="/index.php/id/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Indonesian" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/indonesia-vOlYqx6.svg"
+                     alt="Indonesian"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                Indonesia
+            </a>
+                    <a href="/index.php/ms/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Malay" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/malaysia-Dfbx4PW.svg"
+                     alt="Malay"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                Melayu
+            </a>
+                    <a href="/index.php/cz/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Czech" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/czech-republic-DBnwSm4.svg"
+                     alt="Czech"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                čeština
+            </a>
+                    <a href="/index.php/dk/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Danish" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/denmark-zNnRBXT.svg"
+                     alt="Danish"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                dansk
+            </a>
+                    <a href="/index.php/de/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to German" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/germany-cQgsy8u.svg"
+                     alt="German"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                Deutsch
+            </a>
+                    <a href="/index.php/es/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Spanish" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/spain--7CXJC0.svg"
+                     alt="Spanish"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                español
+            </a>
+                    <a href="/index.php/fr/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to French" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/france-78dWCvV.svg"
+                     alt="French"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                français
+            </a>
+                    <a href="/index.php/it/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Italian" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/italy-q-aYO30.svg"
+                     alt="Italian"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                italiano
+            </a>
+                    <a href="/index.php/hu/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Hungarian" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/hungary-luWwZwd.svg"
+                     alt="Hungarian"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                magyar
+            </a>
+                    <a href="/index.php/nl/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Dutch" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/netherlands-vETs3pd.svg"
+                     alt="Dutch"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                Nederlands
+            </a>
+                    <a href="/index.php/no/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Norwegian" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/norway-yvv4DZl.svg"
+                     alt="Norwegian"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                norsk
+            </a>
+                    <a href="/index.php/uz/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Uzbek" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/uzbekistan-VM-vSCQ.svg"
+                     alt="Uzbek"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                o‘zbek
+            </a>
+                    <a href="/index.php/ru/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Russian" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/russia-tCwkNYx.svg"
+                     alt="Russian"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                русский
+            </a>
+                    <a href="/index.php/pl/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Polish" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/poland-6RmBGdl.svg"
+                     alt="Polish"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                polski
+            </a>
+                    <a href="/index.php/br/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Português" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/brazil-reX-Eje.svg"
+                     alt="Português"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                Português
+            </a>
+                    <a href="/index.php/ro/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Romanian" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/romania--_gMtdy.svg"
+                     alt="Romanian"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                română
+            </a>
+                    <a href="/index.php/sk/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Slovak" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/slovakia-s1yz6TO.svg"
+                     alt="Slovak"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                slovenčina
+            </a>
+                    <a href="/index.php/sr/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Serbian" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/serbia-0QGblW-.svg"
+                     alt="Serbian"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                српски
+            </a>
+                    <a href="/index.php/fi/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Finnish" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/finland--qHCl4o.svg"
+                     alt="Finnish"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                suomi
+            </a>
+                    <a href="/index.php/se/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Swedish" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/sweden-BL69OS-.svg"
+                     alt="Swedish"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                svenska
+            </a>
+                    <a href="/index.php/tl/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Tagalog" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/philippines-RCUOf2w.svg"
+                     alt="Tagalog"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                Tagalog
+            </a>
+                    <a href="/index.php/tr/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Turkish" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/turkey-dATlLt1.svg"
+                     alt="Turkish"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                Türkçe
+            </a>
+                    <a href="/index.php/gr/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Greek" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/greece-Hpkhyut.svg"
+                     alt="Greek"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                Ελληνικά
+            </a>
+                    <a href="/index.php/il/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Hebrew" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/israel-cOvl_0E.svg"
+                     alt="Hebrew"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                עברית
+            </a>
+                    <a href="/index.php/ar/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Arabic" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/saudi-arabia-GsV0hTl.svg"
+                     alt="Arabic"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                العربية
+            </a>
+                    <a href="/index.php/hi/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Hindi" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/india-6n3wHHq.svg"
+                     alt="Hindi"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                हिन्दी
+            </a>
+                    <a href="/index.php/bn/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Bangla" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/bangladesh-RjBBOli.svg"
+                     alt="Bangla"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                বাংলা
+            </a>
+                    <a href="/index.php/th/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Thai" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/thailand-YqT00Y8.svg"
+                     alt="Thai"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                ไทย
+            </a>
+                    <a href="/index.php/kr/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Korean" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/south-korea-YFlv14y.svg"
+                     alt="Korean"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                한국어
+            </a>
+                    <a href="/index.php/jp/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to Japanese" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/japan-qS6Lq6c.svg"
+                     alt="Japanese"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                日本語
+            </a>
+                    <a href="/index.php/zh/games/boxing-physics-2" class="block p-[6px_16px] focusable leading-[20px] whitespace-nowrap hover:bg-ash-100" aria-label="Switch to 中文" data-action="dropdown#close" tabindex="0">
+                <img src="/assets/images/flags/china-w_I8Ujn.svg"
+                     alt="中文"
+                     loading="lazy" decoding="async"
+                     class="inline-block size-[36px] mr-0.5 scale-[.7] align-middle max-w-none">
+                中文
+            </a>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+    <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"746e692914cd4b90b5c7c71508c3d45b","r":1,"spa":2}'
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui, shrink-to-fit=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="robots" content="noindex, follow">
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon-h7sphxW.svg">
+    <link rel="canonical" href="https://arcadrome.com/en/games/drive-mad" />
+    <title>Drive Mad - Arcadrome</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            background-color: #002B50;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        #gameframe {
+            flex-grow: 1;
+            border: none;
+            width: 100%;
+            height: 100%;
+            z-index: 10;
+            /* Игра на нижнем слое относительно рекламы */
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <iframe id="gameframe" src="https://games.arcadrome.com/drive-mad/7/index.html" allow="autoplay; fullscreen; camera; focus-without-user-activation *; monetization; gamepad; keyboard-map *; xr-spatial-tracking; clipboard-write; web-share; accelerometer; magnetometer; gyroscope; microphone *"
+        scrolling="no"></iframe>
+    <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"746e692914cd4b90b5c7c71508c3d45b","r":1,"spa":2}'
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
