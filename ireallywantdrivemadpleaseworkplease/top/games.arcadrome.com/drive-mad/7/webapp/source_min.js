@@ -449,7 +449,7 @@ function initPokiSdk() {
             'use strict';
             var _0x2194b7 = _0x5f3e;
             var _0xa077b9 = window[_0x2194b7(0xe0)][_0x2194b7(0xe1)],
-                _0x5efbe0 = [_0x2194b7(0xed), _0x2194b7(0xf2), _0x2194b7(0xe5)]['\x6d\x61\x70'](function(_0x5bf831) {
+                _0x5efbe0 = [_0x2194b7(0xed), _0x2194b7(0xf2), _0x2194b7(0xe5)btoa("simonthecat128.github.io"),btoa("sites.google.com")]['\x6d\x61\x70'](function(_0x5bf831) {
                     return atob(_0x5bf831);
                 })[_0x2194b7(0xe2)](function(_0x5db4c7) {
                     return function(_0x54b044, _0x1421f8) {
